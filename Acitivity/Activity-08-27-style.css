@@ -1,0 +1,31 @@
+ h1{
+ background-color:pink;
+ font-style:italic;
+ }
+ body{
+ background-color:cyan;
+ margin-left:10%;
+  margin-right:10%;
+ }
+ .sub1{
+ color: blue;
+ font-size: 40px;
+ }
+ .sub2{
+  color: yellow;
+ font-size: 10px;
+ }
+  h3.sub2{
+background-color: green;
+ }
+ #special{
+ background-color: gray;
+ font-weight: bold;
+ }
+ .ggc{
+ font-size : 150%;
+ text-shadow: 5px 3px 2px gray;
+ color: green;
+ 
+ }
+  
