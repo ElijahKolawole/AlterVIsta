@@ -1,0 +1,46 @@
+#mc{
+    column-count:3; //This is for general broswwe like IE. You can also use browser dependent style
+    //-moz-column-count: 3; // this is for mozilla
+    //-webkit-column-count: 4; // chrome, safari, and opera. 
+    
+    // -webkit-column-fill: auto; // can aslo be balanced by default
+    column-fill: auto;
+    column-gap: 40px;
+   column-rule-style: ridge;
+   column-rule-color: pink;
+   column-rule-width: 8px;
+   
+ 
+    
+    }
+    #mc2{
+      column-count:3;
+    column-rule : inset blue 10px;
+    column-width:150px; //mininmum size;
+    }
+    #txt{
+    font-size: 50px;
+    text-align:center;
+   background-color: green;
+    outline-style: dotted;
+    outline-width: 3px;
+    outline-color: blue;
+    outline-offset: -10px;
+    
+    }
+    .olex{
+    text-align: center;
+    }
+    
+    #mycursor{
+    cursor: wait;
+    
+    }
+     #mycursor2{
+    cursor: help;
+    
+    }
+     #mycursor3{
+    cursor: url("data:image/jpeg;base64,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"), auto;
+    
+    }

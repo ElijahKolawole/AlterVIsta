@@ -1,0 +1,6 @@
+#mc{
+
+	-webkit-column-count: 3;
+	-webkit-column-gap: 40px;
+	column-fill: auto;
+}

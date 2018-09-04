@@ -1,0 +1,70 @@
+.inst{
+
+	list-style-image: url('instagram.gif');
+}
+.ol{
+	list-style-type: upper-roman;
+}
+#hl{
+	cursor: wait;
+
+}
+#mc{
+	column-count: 4;
+	-webkit-column-count: 4;
+	-moz-column-count: 4;
+
+	column-rule: ridge;
+	-webkit-column-count: 4;
+	-moz-column-count: 4;
+
+
+	 column-rule-width:8px;
+
+	 column-rule-color: green;
+
+
+	 column-fill: balance;
+
+	 column-gap: 50px;
+
+}
+#gl{
+	color: green;
+}
+
+#outline{
+	font-size: 16;
+	font-weight: bold;
+	outline-style: dashed;
+	outline-offset: -07px;
+	outline-color: blue;
+	padding: 15px;
+	background-color: cyan;
+}
+
+#shadow{
+
+	  text-shadow: 1px -2px  2px #ff0000;
+	  color: red;
+	  font-weight: bold;
+	  font-size: 28px;
+	  font-style: italic;
+}
+#one{
+	text-align: center;
+	letter-spacing: 10px;
+}
+#two{
+	word-spacing: 10px;
+	text-align: center;
+}
+#three{
+	line-height: 10px;
+	text-indent: 50px;
+}
+
+#four{
+text-decoration: line-through;
+
+}

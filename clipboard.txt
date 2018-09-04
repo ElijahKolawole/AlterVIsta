@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head lang = "en">
+        
+<title>Lab2Practice</title>
+<link rel="stylesheet" type="text/css" href="Lab2Practice-style.css">
+<meta charset="utf-8">
+<meta name="generator" content="AlterVista -Editor">
+    </head>
+<body>
+<h1>Lab2 Practice</h1>  
+
+</body>
+
+
+</html>
+---------------------------------------------------------------------------------------

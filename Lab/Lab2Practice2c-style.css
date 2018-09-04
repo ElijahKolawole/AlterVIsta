@@ -1,0 +1,58 @@
+#header{
+	color: yellow;
+	text-align: center;
+
+}
+
+#mc{
+	column-count: 3;
+	-moz-column-count: 3;
+		-webkit-column-count: 3;
+		column-gap: 80px;
+		column-fill: auto;
+		column-rule: ridge;
+		column-rule-width: 10px;
+		column-rule-style: dashed;
+		column-rule-color: grey;
+		
+
+}
+hr{
+	border-color: red; border-style: dotted;
+}
+#mc2{
+	column-count: 2;
+	-moz-column-count :2;
+	-webkit-column-count :2;
+	min-width: 1000px;
+	column-fill: balance;
+	column-gap: 200px;
+	height: 200px;
+}
+#cus1{
+cursor: move;
+}
+#cus2{
+cursor: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2i1FVhC3SeDr-aL62Kr_R3thRktUnuqLv2D3_osr0zCxtys8udg"), auto;
+}
+#cus3{
+	cursor: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2i1FVhC3SeDr-aL62Kr_R3thRktUnuqLv2D3_osr0zCxtys8udg"),auto;
+
+}.cuss{
+	background-color: yellow;
+}
+
+.final{
+	color: yellow;
+	font-size: 50px;
+	background-color: black;
+	text-align: center;
+	
+}
+#fin{
+	outline-style: dotted;
+	outline-offset: -07px;
+	outline-color: white;
+	padding: 5px;
+}
+
