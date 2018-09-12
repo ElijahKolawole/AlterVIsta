@@ -1,0 +1,129 @@
+ #grad1{
+   width: 400px;
+   height: 400px;
+   margin: auto;
+   border : inset 5px blue;
+   background-color: green;
+   background: -webkit-linear-gradient(red, yellow);
+     background: -moz-linear-gradient(red, yellow);
+   }
+  
+   
+   #grad2{
+   width: 400px;
+   height: 400px;
+   margin: auto;
+   border : inset 5px blue;
+   background-color: green;
+    background: -webkit-linear-gradient(left, red, yellow);
+   background: -moz-linear-gradient(left, red, yellow);
+   }
+       #grad3{
+   width: 400px;
+   height: 400px;
+   margin: auto;
+   border : inset 5px blue;
+   background-color: green;
+      background: -webkit-linear-gradient(bottom right, red, yellow);
+
+   background: -moz-linear-gradient(bottom right, red, yellow);
+   }
+   
+   #grad4{
+   width: 200px;
+   height: 200px;
+   margin: auto;
+   border : inset 2px blue;
+   background-color: green;
+      background: -webkit-linear-gradient(-30deg, red, yellow);
+
+   background: -moz-linear-gradient(-30deg, red, yellow);
+   }
+   
+       #grad5{
+   width: 400px;
+   height: 400px;
+   margin: auto;
+   border : inset 5px blue;
+   background-color: green;
+      background: -webkit-linear-gradient(bottom right, red, blue, yellow, green);
+
+   background: -moz-linear-gradient(bottom right, red, blue, yellow, green);
+   }
+     #grad6{
+   width: 400px;
+   height: 400px;
+   margin: auto;
+   border : inset 5px blue;
+   background-color: green;
+      background: -webkit-repeating-linear-gradient(60deg, red,  yellow 10%, green 20%);
+
+   background: -moz-repeating-linear-gradient(60deg, red,  yellow 10%, green 20%);
+   }
+    #grad7{
+   width: 400px;
+   height: 400px;
+   margin: auto;
+   border : inset 5px blue;
+   background-color: green;
+
+     background: -webkit-repeating-linear-gradient(transparent, blue 40px), 
+  -webkit-repeating-linear-gradient(180deg, transparent, green 20px);
+   background: -moz-repeating-linear-gradient(transparent, blue 40px), 
+  -moz-repeating-linear-gradient(180deg, transparent, green 20px)
+   ;
+   }
+      #grad8{
+   width: 400px;
+   height: 400px;
+   margin: auto;
+   border : inset 5px blue;
+   background-color: green;
+      background: -webkit-radial-gradient( red,  blue, yellow , green );
+
+   background: -moz-radial-gradient( red,  blue, yellow , green );
+   }
+    #grad9{
+   width: 400px;
+   height: 400px;
+   margin: auto;
+   border : inset 5px blue;
+   background-color: green;
+      background: -webkit-radial-gradient( top right,red,  blue, yellow , green );
+
+   background: -moz-radial-gradient( top right,red,  blue, yellow , green );
+   }
+      #grad10{
+   width: 400px;
+   height: 400px;
+   margin: auto;
+   border : inset 5px blue;
+   background-color: green;
+      background: -webkit-repeating-radial-gradient( green, yellow 10%, red 20%);
+
+   background: -moz-repeating-radial-gradient( green, yellow 10%, red 20%);
+   }
+     #grad11{
+   width: 400px;
+   height: 400px;
+   margin: auto;
+   border : inset 5px blue;
+   background-color: green;
+  background: -webkit-repeating-radial-gradient( transparent, blue 10%),
+   -webkit-repeating-radial-gradient( transparent, green 20%);
+
+   background: -moz-repeating-radial-gradient( transparent, blue 10%),
+   -moz-repeating-radial-gradient( transparent, green 20%);
+   }
+    #grad12{
+   width: 400px;
+   height: 400px;
+   margin: auto;
+   border : inset 5px blue;
+   background-color: green;
+ background: -webkit-repeating-radial-gradient( bottom left, transparent, blue 10%),
+   -webkit-repeating-radial-gradient( top right, transparent, green 20%);
+
+   background: -moz-repeating-radial-gradient( bottom left, transparent, blue 10%),
+   -moz-repeating-radial-gradient( top right, transparent, green 20%);
+   }

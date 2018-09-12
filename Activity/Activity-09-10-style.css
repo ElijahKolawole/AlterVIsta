@@ -1,0 +1,121 @@
+ .ring{
+     margin: auto;
+   width: 400px;
+   height: 400px;
+  // background-color: transparent;
+   border: outset 50px orange;
+   //border-left: offset 50px orange;
+   //border-right: solid 200px red;
+   //border-bottom: solid 30px blue;
+   //border-top: solid 30px blue;
+   border-radius: 50%;
+   } 
+   
+  .fan{
+     margin: auto;
+   width: 0px;
+   height: 0px;
+   background-color: transparent;
+   border-left: solid 200px transparent;
+   border-right: solid 200px transparent;
+   border-bottom: solid 200px blue;
+   border-top: solid 200px blue;
+   border-radius: 50%;
+   } 
+   
+   .triangle{
+     margin: auto;
+   width: 0px;
+   height: 0px;
+   background-color: transparent;
+   border-left: solid 200px transparent;
+   border-right: solid 200px transparent;
+   border-bottom: solid 200px blue;
+   border-top: solid 200px transparent;
+   }
+   .trapezoid{
+   margin: auto;
+   width: 200px;
+   height: 200px;
+   background-color: transparent;
+   border-left: solid 200px transparent;
+   border-right: solid 200px transparent;
+   border-bottom: solid 200px blue;
+   border-top: solid 200px transparent;
+   }
+   
+   .banner{
+   background-color: #7d110c;
+   color: blue;
+   text-align: center;
+   border: outset 5px #7d110c; 
+   width : 70%;
+   margin: auto;
+   border-radius: 15px;
+   box-shadow: 10px 10px 10px blue;
+   
+   }
+   
+    .leaf{
+    width: 300px;
+   height: 300px;
+   border: solid green 1px;
+   background-color: #BBBBBB;
+ background-image: url("bird.jpeg");
+      border-top-left-radius: 100%;
+         border-bottom-right-radius: 100%;
+   
+    margin : auto;
+    text-align: center;
+    font-weight: bold;
+  
+    background-size: 100% 100%;
+   }
+   
+    .oval{
+    width: 400px;
+   height: 200px;
+   border: solid green 1px;
+   background-color: #BBBBBB;
+ background-image: url("punguine.jpg");
+      border-radius: 50%;
+   
+    margin : auto;
+    text-align: center;
+    font-weight: bold;
+  
+    background-size: 100% 100%;
+   }
+   
+   .sign{
+    width: 90px;
+   height: 40px;
+   border: solid green 1px;
+   background-color: #BBBBBB;
+ 
+      border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin : auto;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px green;
+   }
+   
+   .circle{
+   width: 200px;
+   height: 200px;
+   border: solid green 1px;
+   background-color: cyan;
+   border-radius: 50%;
+   
+   }
+   
+ .hhh{
+ background-color : pink;
+ border: solid blue 4px;
+ //border-radius: 20px;
+ border-top-left-radius : 20px;
+  border-bottom-left-radius : 20px;
+    border-top-right-radius : 20px;
+      border-bottom-right-radius : 20px;
+ }

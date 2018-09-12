@@ -1,0 +1,68 @@
+  .p1{
+    font-size : 30px;
+   /* border-color: red;
+    border-style:dotted;
+    border-width: 10px;*/
+    border : red dotted 10px;
+   // padding: 5%;
+    }
+    body{
+    background-color: grey;
+    width: 80%;
+   /* margin-left : 10%;
+    margin-right: 10%;*/
+    margin: auto;
+    margin-top: 5%;
+    nargin-bottom : 5%;
+    }
+    .p2{
+    /*border-top-width: 5px;
+    botder-top-style: inset;
+    border-top-color: blue;
+    */
+    
+    border-top: inset blue 5px;
+     border-right: outset red 10px;
+    
+    }
+    
+    .div1{
+    background-color: cyan;
+    width : 60%;
+    margin: auto;
+    height: 120px;
+    text-align: center;
+    //padding-top: 50px;
+    
+    }
+    
+    #div2{
+    background-color: pink;
+    border-left: dashed blue 1px;
+    border-bottom: outset green 6px;
+    margin : 10px 20px 30px 40px;
+    padding: 40px 30px 20px 10px;
+    }
+    
+    .msg1{
+    font-size: 20px;
+    vertical-align: -50px;
+    }
+    
+    .s1{
+    background-color: green;
+    }
+    .div3{
+    width: 50%;
+    margin : auto;
+    background-color: lightblue;
+    
+    height: 400px;
+    }
+    
+    .img1{
+    border: red outset 15px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 31%;
+    }
