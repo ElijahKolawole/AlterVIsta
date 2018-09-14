@@ -1,45 +1,56 @@
+html{
+  
+}
+
+
 body { background-color: #ccffcc;
        color: #0066ff;
        font-family: Verdana, Arial, sans-serif;     
+     width: 90%;
+    margin: auto;
      }
 
 #mainDiv{
-float: justify;
-width: 95%;
-margin: auto;
+
+width: 100%;
+//margin: 10px;
 height: 500px;
 //border-style: solid;
 //border-color: black;
-border-width: 2px;
+//border-width: 2px;
 //margin-top: 30px;
-/margin-left: 30px;
+margin: 5px;
+
 background-repeat: no-repeat;
 background-image: url("launch1.jpeg");
 background-position: left;
 background-size: 49.7% 100%;
-margin: auto;
+
 
 
 }
 
 #subDiv{
-width: 99.5%;
-margin: auto;
+width: 100%;
+//margin: auto;
 height: 500px;
 //border-style: solid;
 //border-color: yellow;
-border-width: 2px;
+//border-width: 2px;
 background-repeat: no-repeat;
 background-image: url("launch2.jpeg");
 background-position: right;
 background-size: 49.7% 100%;
-
+margin-right: 50px;
+//padding-right: 50px;
 }
 
 
  .navBar{
 text-align:  center;
 padding: 20px;
+  font-size: 20px;
+  position: static;
  }
 h1 { 
 
@@ -52,7 +63,7 @@ background-color: #ccffcc;
     border-top-color: black;
     border-left-color: black;
      text-align: center;
-  
+
      background-image: url("rocket1.jpeg");
      background-repeat: no-repeat;
  background-position: left;
@@ -65,6 +76,7 @@ background-color: #ccffcc;
 h2 { background-color: #ffcccc;
      color: brown;
      line-height: 175%;
+     padding: 20px;
    }
 
 a:link {  color: #003366;
@@ -76,7 +88,7 @@ border-color: black;
 
 li { color: #0066cc;
      font-style: oblique; 
-    text-align: center;  
+    text-align: left;  
    }
 
 b  {  font-size: 14pt;
@@ -85,8 +97,89 @@ b  {  font-size: 14pt;
    }
 
 #footer { background-color: #ffcccc;
-          font-size: .60em;
+          font-size: .80em;
           font-style: italic;   
           text-align: center;
           color: #0066ff;
         }
+ul{
+  list-style-position: outside;
+}
+
+#item1 p{
+  width: 80;
+  background-image: url("launcher2.jpeg");
+  background-repeat: no-repeat;
+  background-position: 670px;
+  background-size: 70px 100%;
+  margin: 0px;
+ padding: 30px;
+ padding-left: 0px;
+
+
+
+}
+
+#item2 p{
+  width: 80;
+  background-image: url("flyer.jpeg");
+  background-repeat: no-repeat;
+  background-position: 590px;
+  background-size: 70px 100%;
+  margin: 0px;
+ padding: 30px;
+ padding-left: 0px;
+
+
+
+}
+#item3 p{
+  width: 80;
+  background-image: url("repair.jpeg");
+  background-repeat: no-repeat;
+  background-position: 650px;
+  background-size: 70px 100%;
+  margin: 0px;
+ padding: 30px;
+ padding-left: 0px;
+
+
+
+}
+#item4 p{
+  width: 80;
+  background-image: url("research.jpeg");
+  background-repeat: no-repeat;
+  background-position: 580px;
+  background-size: 70px 100%;
+  margin: 0px;
+ padding: 30px;
+ padding-left: 0px;
+
+
+
+}
+#item5 p{
+  width: 80;
+  background-image: url("launcher3.jpeg");
+  background-repeat: no-repeat;
+  background-position: 800px;
+  background-size: 70px 100%;
+  margin: 0px;
+ padding: 30px;
+ padding-left: 0px;
+
+
+
+}
+.contact{
+  font-style: italic;
+}
+
+#invest dd{
+  font-style: italic;
+}
+#invest dt{
+font-weight:  bold;
+text-decoration: underline;
+}
