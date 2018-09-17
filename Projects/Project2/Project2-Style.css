@@ -8,13 +8,14 @@ body { background-color: #ccffcc;
        font-family: Verdana, Arial, sans-serif;     
      width: 90%;
     margin: auto;
+    height: 700px;
      }
 
 #mainDiv{
 
 width: 100%;
 //margin: 10px;
-height: 500px;
+//height: 500px;
 //border-style: solid;
 //border-color: black;
 //border-width: 2px;
@@ -59,7 +60,7 @@ background-color: #ccffcc;
      color: black;
      line-height: 700%; 
      border-style: inset;
-     border-width: 5px;
+     border-width: 10px;
     border-top-color: black;
     border-left-color: black;
      text-align: center;
@@ -97,10 +98,12 @@ b  {  font-size: 14pt;
    }
 
 #footer { background-color: #ffcccc;
-          font-size: .80em;
+          font-size: .60em;
           font-style: italic;   
           text-align: center;
           color: #0066ff;
+          padding: 10px;
+          margin-bottom: 20px;
         }
 ul{
   list-style-position: outside;
@@ -183,3 +186,12 @@ ul{
 font-weight:  bold;
 text-decoration: underline;
 }
+
+a.usg{
+color: black;
+border-color: black;
+}
+a.ggc{
+  color: green;
+  border-color: green;
+
