@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+
+<html lang = "en">
+	<head>
+   <style>
+     .container{
+     width:60%;
+     display: flex;
+     margin: auto;
+     text-align: center;
+    // border: blue solid 1px;
+ 
+ }
+ 
+ 	.menu0{
+    flex-grow: 1;
+    margin:20px;
+    border: solid black 2px;
+    padding: 5px;
+    background:  pink;
+    
+    }
+    
+    .menu1{
+    display: none;
+    }
+    
+    .menu0:hover{
+    background-color: red;}
+    
+    .menu0:hover .menu1{
+     display: block;
+     width: 110px;
+     border: solid black 2px;
+     background-color: grey;
+     position: absolute;
+     top:55px;
+     margin-align: left;
+     margin-left: 1px;
+    }
+    .menu1 p:hover{
+     background-color: yellow;
+    }
+    .menu2{
+    display: none;
+    
+    }
+    .hassubmenu:hover .menu2{
+    display: block;
+    border: solid black 2px;
+    width: 140px;
+    position: absolute;
+    top:50px;
+    left:110px;
+    background-color: pink;
+    
+    }
+    
+     .hassubmenu2:hover .menu2{
+    display: block;
+    border: solid black 2px;
+    width: 140px;
+    position: absolute;
+    top:50px;
+    left:110px;
+    background-color: pink;
+    
+    }
+  </style>
+		<link rel="stylesheet" type="text/css" href="Activity-09-100-Style.css">
+		<title>Activity-09-26</title>
+		<meta charset="utf-8">
+		<meta name="generator" content="AlterVista - Editor HTML"/>
+
+	</head>
+
+	<body>
+			<div class = "container">
+            		<div class= "menu0">
+                    About
+                    	<div class = "menu1">
+                        <p><a href = "https://www.ggc.edu">GGC</a></p>
+                        <p>UGA</p>
+                        <p>GA Tech</p>
+                      
+                        </div>
+                    </div>
+                    
+                    <div class= "menu0">
+                    Contact
+                    	<div class = "menu1">
+                        <p>By Email</p>
+                        <p onclick="alert('please call : 123-456-789');">By Phone</p>
+                        <p onclick="confirm('Really want to do it?');">By Mail</p>
+                      
+                        </div>
+                    </div>
+                    <div class= "menu0">
+                    Department
+                    	<div class = "menu1">
+                        <p>Math</p>
+                              
+                       		<div class = hassubmenu>
+                         <p>ITEC&#9654
+                              <div class = "menu2"">
+                                <p>Software</p>
+                                <p>Security</p>
+                                <hr/>
+                                <p>Digital</p>
+                                <p>Enterprise</p>
+                            </div>
+                        </p>
+                            
+                            </div>
+                        <hr/>
+                        <p>Business</p>
+                        <p>Education</p>
+                        
+                        </div>
+                    </div>
+                    <div class= "menu0">
+                    Myself
+                    <div class = "menu1">
+                        <p onclick="prompt('How much do you want to be paid?')";>Education</p>
+                        
+                        <div class ="hassubmenu2">
+                        <p>Career&#9654</p>
+                        		<div class = "menu2"">
+                                <p>Programmer</p>
+                                <p>Software Engineer</p>
+                                <hr/>
+                                <p>CEO</p>
+                                <p>UX Designer</p>
+                        </div>
+                        <p>Hobbies</p>
+
+                        </div>
+                    </div>
+            
+            </div>
+			
+</div>
+
+<hr/>
+This is the main content of the website!!!!!.
+    </body>
+
+
+
+</html>
