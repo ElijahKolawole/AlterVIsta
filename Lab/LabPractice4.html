@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+			<title>Lab4Practice</title>
+			<meta charset="utf8">
+			<meta name="author" content="Elijah Kolawole">
+			<meta name="description" content="practice for Lab4">
+			<style type="text/css">
+				.container{
+					width: 95%;
+					//display: flex;
+					border: solid blue 0.05px;
+       				margin:  auto;
+				}
+				.navigation{
+					width: 80%;
+					display: flex;
+					border: solid blue 0.05px;
+       				margin:  auto;	
+				}
+				.content{
+					width: 80%;
+					border: dashed blue 1px;
+					margin: auto;
+				}
+				.menu{
+					text-align: center;
+				   width: 2px;
+					flex-grow: 1;
+					border: solid blue 0.05px;
+       				margin:  5px;
+       				padding: 10px;
+       				background-color: red;
+				}
+				.menu:hover{
+					background-color: pink;
+				}
+				.submenu1{
+
+					display: none;
+				}
+
+				a{
+					text-decoration: none;
+
+				}
+				.menu:hover .submenu1{
+					width: 185px;
+					line-height: 20px;
+					display: block;
+//       			padding: 50px;
+					margin: auto;
+					//margin-bottom: 0px;
+					display: block;
+					text-align: center;
+					border: dashed blue .1px;
+					background-color: cyan;
+					position: absolute;
+					top: 55px;
+					line-height: 20px;
+					margin-right: 20px;
+
+
+				}
+				.submenu1 p:hover{
+					background-color: yellow;
+				}
+
+				#career{
+               position: absolute;
+              right: 30px;	}
+              	#itec{
+              //float: right;		
+              position: absolute;
+              right: 30px;		}
+
+              .submenu2{
+              	display: none;
+              }
+
+              .itecMenu:hover .submenu2{
+              	width: 185px;
+					//line-height: 20px;
+					display: block;
+//       			//padding: 50px;
+					margin: auto;
+					//margin-bottom: 0px;
+					display: block;
+					text-align: center;
+					border: dashed blue .1px;
+					background-color: cyan;
+					position: absolute;
+					top: 5px;
+					left: 185px;
+					line-height: 20px;
+					//margin-right: 200px;
+              }
+
+             
+
+
+           .careerMenu:hover .submenu2{
+              	width: 185px;
+					//line-height: 20px;
+					display: block;
+//       			//padding: 50px;
+					margin: auto;
+					//margin-bottom: 0px;
+					display: block;
+					text-align: center;
+					border: dashed blue .1px;
+					background-color: cyan;
+					position: absolute;
+					top: 5px;
+					left: 185px;
+					line-height: 20px;
+					//margin-right: 200px;
+              }
+              	.submenu3{
+              		display: none;
+              	}
+
+              .designerMenu:hover .submenu3{
+              	   width: 185px;
+					//line-height: 20px;
+					display: block;
+//       			//padding: 50px;
+					margin: auto;
+					//margin-bottom: 0px;
+					display: block;
+					text-align: center;
+					border: dashed blue .1px;
+					background-color: cyan;
+					position: absolute;
+					top: 5px;
+					left: 185px;
+					line-height: 20px;
+					//margin-right: 200px;
+              }
+              
+			</style>
+	</head>
+	<body>
+		<div class = "container">
+				<div class = "navigation">
+					<div class = "menu">About
+						<div class = "submenu1" >
+							<p><a href="https://www.ggc.edu" target="_blank">GGC</a></p>
+							<p><a href = "https://www.gatech.edu" target="_blank">GATech</a></p><hr/>
+							<p><a href = "https://www.uga.edu" target="_blank">UGA</a></p></p>
+						</div>	
+					</div>
+					<div class = "menu">Contact
+						<div class ="submenu1">
+							<p>Email</p>
+							<p onclick="alert('Call 123-456-789');">Phone</p><hr/>
+							<p onclick="prompt('Would you like to send us a mail?');">Mail</p>
+
+						</div>
+
+
+					</div>
+					<div class = "menu">Department
+						<div class ="submenu1">
+							<div class = "itecMenu">
+							<p >ITEC <span id = "itec">&#8608;</span>&nbsp;
+						    	<div  class="submenu2">
+									<p>Software</p>
+									<p>Security</p><hr/>
+									<p>Digital Media</p>
+									<p>Enterprise</p>
+                           
+								</div>	
+							</p>
+						</div>
+							<p >Math</p><hr/>
+							<p >Biology</p>
+							<p>Chemistry</p>
+
+						</div>
+					</div>
+					<div class = "menu">Myself
+						<div class ="submenu1">
+							<p>Education</p>
+							<div class="careerMenu">
+								<p>Career</p>
+									<div class="submenu2">
+										<p>Software Developer</p>
+									    <p>Security Expert</p><hr/>
+									    <div class="designerMenu">
+									    	<p>UX Designer</p>
+									    		<div class="submenu3">
+									    			<p>Inkskape</p>
+									    			<p>Photoshop</p>
+									    			<p>GIMP</p>
+									    		</div>
+
+									    </div>
+									    <p>Enterprise Manager</p>
+									</div>
+							</div>
+
+
+						<hr/>
+							<p >Hobbies</p>
+							<p >Family</p>
+						</div>	
+					</div>
+					
+
+				</div>
+
+				<hr  />
+				<div class="content">
+				<p>This is the content of the webpage</p>	
+				</div>
+
+			
+		</div>
+	</body>
+
+</html>
