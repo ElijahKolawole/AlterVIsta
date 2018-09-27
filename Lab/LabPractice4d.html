@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LabPractice4d</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Elijah Kolawole">
+	<meta name="description" content="LabPractice4d practice">
+
+	<style type="text/css">
+		body{
+			display: flex;
+			flex-flow: row wrap;
+		}
+		.left{
+			width: 4.5%;
+			border: 0.1em blue dotted;
+		}
+
+		.right{
+			width: 4.5%;
+			border: 0.1em blue dotted;
+			background-image: url('data:image/jpeg;base64,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');
+			background-repeat: repeat-y;
+			background-size: 100% 20%;
+		}
+		.container{
+			display: flex;
+			width: 90%;
+			border: black 1px solid;
+			margin: auto;
+			//height: 900px;
+			flex-flow: column wrap;
+
+		}
+		.right{
+			width: 4%;
+		}
+		.header{
+			display: flex;
+			flex-flow: row wrap;
+			flex-h
+			border: 0.5px blue dotted;
+
+		}
+		.menu{
+			//width: 250;
+			background-color: red;
+			display: block;
+			flex-grow: 1;
+			border: dotted 0.5px blue;
+			margin-left: 10px;
+			margin-right: 10px;
+			margin-top: 7px;
+			//margin-bottom: 2px;
+			padding-top: 8px;
+			padding-bottom: 8px;
+			text-align: center;
+		}
+		.menu:hover{
+			background-color: grey;
+		
+		}
+		.menu1:hover{
+			background-color: grey;
+		}
+		.menu:active{
+			background-color: yellow;
+		}
+		.menu:visited{
+			background-color: purple;
+		}
+		.submenu1{
+			display: none;
+		}
+		.submenu1 p{
+			border: 0.5px dotted blue;
+			margin:0px;padding: 10px;
+		}
+		.submenu1 p:hover{
+			background-color: grey;
+		}
+		.submenu1 p:active{
+			background-color: yellow;
+		}
+		.submenu1 p:visited{
+			background-color: purple;
+		}
+		.menu:hover .submenu1{
+			
+			display: block;
+			background-color: red;
+			flex-grow: 1;
+			border: dotted 0.5px blue;
+			//margin-left: 10px;
+			//margin-right: 10px;
+			margin-top: 7px;
+			//margin-bottom: 2px;
+			padding-top: 8px;
+			padding-bottom: 8px;
+			text-align: center;
+           position: absolute;
+           top: 45px;
+         
+           width: 150px;
+		}
+		 a{
+		
+		text-decoration: none;
+		}
+
+		.submenu2{
+			display: none;
+		}
+
+		 .itecmenu:hover .submenu2{
+			display: block;
+			background-color: red;
+			flex-grow: 1;
+			border: dotted 0.5px blue;
+			//margin-left: 10px;
+			//margin-right: 10px;
+			margin-top: 7px;
+			//margin-bottom: 2px;
+			padding-top: 8px;
+			padding-bottom: 8px;
+			text-align: center;
+           position: absolute;
+           top: 85px;
+           left: 150px;
+         
+           width: 150px;
+		}
+
+		.submenu2:hover{
+			background-color: grey;
+		}
+		.submenu2:active{
+			background-color: yellow;
+		}
+		.submenu2:visited{
+			background-color: purple;
+		}
+		.submenu3{
+			display: none;
+
+		}
+
+		.softmenu:hover .submenu3{
+			display: block;
+			background-color: red;
+			flex-grow: 1;
+			border: dotted 0.5px blue;
+			//margin-left: 10px;
+			//margin-right: 10px;
+			margin-top: 7px;
+			//margin-bottom: 2px;
+			padding-top: 8px;
+			padding-bottom: 8px;
+			text-align: center;
+           position: absolute;
+           top: 0px;
+           left: 150px;
+         
+           width: 150px;
+		}
+
+	.footer{
+		//margin-right: : 200px;
+		//margin-left: 200px;
+		width: 98%;
+		margin: auto;
+		border: 1px dashed blue;
+		//height: 200px;
+		text-align: center;
+		background-color: red;
+	}
+
+	.content{
+		border: dashed blue 1px;
+		width: 98%;
+		margin:auto;
+		display: flex;
+		//flex-flow: row wrap;
+	}
+	.main{
+		display: flex;
+		width: 97.8%;
+		margin: auto;
+		text-align: center;
+		border: blue 0.5px dotted;
+	}
+	
+	h1{
+		text-align: center;
+	}
+			</style>
+		
+		
+		
+		
+		
+</head>
+<body>
+	<div class="left">
+		<div class="rightmenu">
+			ITEM A
+		</div>
+		<div class="rightmenu">
+			ITEM B
+		</div>
+		<div class="rightmenu">
+			ITEM 
+		</div>
+	</div>
+
+	<div class="container">
+		
+		<div class="header">
+			<div class="menu"><a href="LabPractice4d.html">Home</a>
+
+				
+			</div>
+			<div class="menu">About
+				<div class="submenu1">
+					<a href="https://www.ggc.edu" target="_blank"><p>GGC</p></a>	
+					<a href="https://www.uga.edu"  target="_blank"><p>UGA</p></a>	
+					<a href="https://www.gatech.edu"  target="_blank"><p>GA-Tech</p></a>	
+				
+
+				</div>
+				
+			</div> 
+			<div class="menu">Contact
+				<div class="submenu1">
+					<p onclick="alert('Email: myname@yahoo.com');">Email</p>	
+					<p onclick="alert('Call 215-789-8025');">Phone</p>	
+					<p onclick="prompt('would you like to send us a mail?');">USPS-Mail</p>	
+				
+
+				</div>
+				
+			</div> 
+			<div class="menu">Department
+				<div class="submenu1">
+					<p>English</p>	
+					<p>Education</p>	
+					<div class="itecmenu">
+						<p>ITEC &rArr;</p> 
+						<div class="submenu2">
+							<div class="softmenu">
+								<p>Software Engineering</p>
+								<div class="submenu3">
+									<p>Developer</p>
+									<p>Analyst</p>
+									<p>Designer</p>
+									
+								</div>
+							</div>
+							<p>Digital Media</p>
+							<p>Enterprise Management</p>
+							<p>Network Administrator</p>
+						</div>	
+
+					</div>
+					
+				
+
+				</div>
+				
+			</div> 
+			<div class="menu">Myself
+				<div class="submenu1">
+					<p>Education</p>	
+					<p>Career</p>	
+					<p>Hobbies</p>	
+				
+
+				</div>
+				
+			</div> 
+		</div>
+		<div class="content">
+			<div class="main">
+				<h1  >This is the main content of the web page</h1>
+				<div class="box">
+					
+				</div>
+				<div class="box">
+					
+				</div>
+				<div class="box">
+					
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			Copyright &Copy; Elijah Kolawole 2018.
+		</div>
+		
+	</div>
+	<div class="right">
+		
+	</div>
+
+</body>
+</html>
