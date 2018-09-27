@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab4Template</title>
+	<meta charset="utf-8"
+	<meta name="author" content="Elijah Kolawole">
+	<style type="text/css">
+	body{
+    width: 99%;
+    border: 0.1em black dashed;
+	//height: 900px;
+	margin: auto;
+	}
+	.header{
+    width: 97%;
+    height: 40px;
+    border: 0.1em blue dashed;
+    margin: auto;
+	display: flex;
+
+	}
+	.container{
+	width: 97%;
+	border: 0.1em blue dashed;
+	height: 770px;
+	margin: auto;
+	display: flex;
+	}
+    .left{
+     border: 0.1em pink dashed;
+     flex-grow: 1;
+    }
+    .center{
+     border: 0.1em pink dashed;
+     flex-grow: 4;
+    }
+    .right{
+     border: 0.1em pink dashed;
+     flex-grow: 1;
+    }
+
+	
+	.footer{
+	width: 97%;
+	border: 0.1em blue dashed;
+	height: 45px;
+	margin: auto;
+	background-color: red;
+	text-align: center;
+	text-decoration: 
+	}
+    
+
+    .footer p{
+    		font-style: italic;
+    }	
+	.menu{
+		display: block;
+		flex-grow: 1;
+		background-color: red;
+		border: 1px blue solid;
+		margin-left: 10px;
+		margin-right: 10px;
+		text-align: center;
+		padding: 10px;
+	}
+
+	.menu:hover{
+		background-color: yellow;
+		font-weight: bold;
+	}
+	a{
+		text-decoration: none;
+	}
+	a:hover{
+		background-color: grey;
+	}
+	a:visited{
+		color: pink;
+	}
+    a:active{
+		background-color: purple;
+	}
+
+	.aboutmenu{
+		display: none;
+		
+
+
+	}
+
+	.menu:hover .aboutmenu{
+		display: block;
+		
+		background-color: red;
+		position: absolute;
+		top: 40px;
+
+	}
+
+	.aboutmenu p{
+		margin: 0px;
+		border: blue 2px dotted;
+		padding: 10px;
+	}
+	.aboutmenu p:hover{
+		background-color: yellow;
+	}
+	.contactmenu{
+		display: none;
+	}
+
+	.menu:hover .contactmenu{
+		display: block;
+		background-color: red;
+	}
+
+	</style>
+</head>
+<body>
+	<div class="header">
+		
+			<div class="menu" > <a href ="lab4template.html" target ="_blank"> Home </a></div>
+			<div class="menu">About
+				<div class="aboutmenu">
+					<p>GGC</p>
+					<p>UGA</p>
+					<p>GA-Tech</p>
+				</div>
+			</div>
+			<div class="menu">Contact
+				<div class="contactmenu">
+					<p>Phone</p>
+					<p>Email</p>
+					<p>Mail</p>
+				</div>
+			</div>
+			<div class="menu">Education</div>
+		
+	</div>
+	<div class="container">
+		<div class="left">
+		
+		</div>
+		<div class="center">
+			
+		</div>
+		<div class="right">
+			
+		</div>
+	</div>
+	<div class="footer">
+		<p>Copyright &Copy; Elijah Kolawole 2018.</p>
+	</div>
+
+</body>
+</html>
