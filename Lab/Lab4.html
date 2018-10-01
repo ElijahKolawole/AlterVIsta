@@ -1,157 +1,176 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab4Template</title>
+	<title>ITEC 2130 Lab4</title>
 	<meta charset="utf-8"
 	<meta name="author" content="Elijah Kolawole">
 	<style type="text/css">
 	body{
     width: 99%;
-    border: 0.1em black dashed;
+    border: 2px black solid;
 	//height: 900px;
 	margin: auto;
+	background-color: pink;
 	}
 	.header{
     width: 97%;
-    height: 40px;
-    border: 0.1em blue dashed;
+    height: 100px;
+    border: 2px pink ridge;
     margin: auto;
 	display: flex;
+    
+
+	}
+	.header h1{
+		margin: auto;
+		text-align: center;
+		margin-bottom: 2px;
 
 	}
 	.container{
 	width: 97%;
-	border: 0.1em blue dashed;
+	//border: 0.1em blue dashed;
 	height: 770px;
 	margin: auto;
 	display: flex;
 	}
     .left{
-     border: 0.1em pink dashed;
+     border: 2px red solid;
      flex-grow: 1;
-    }
-    .center{
-     border: 0.1em pink dashed;
-     flex-grow: 4;
+     margin:10px;
+     margin-left: 0px;
+
     }
     .right{
-     border: 0.1em pink dashed;
-     flex-grow: 1;
+     border: 2px blue solid;
+     flex-grow: 25;
+     margin:10px;
+     margin-right: 0px;
+
+    }
+    .right p{
+    	text-align: center;
     }
 
-	
-	.footer{
+    
+   
+    .abovefooter{
 	width: 97%;
-	border: 0.1em blue dashed;
-	height: 45px;
+	border: 2px red solid;
+	height: 620px;
 	margin: auto;
-	background-color: red;
+	margin-top: 10px;
+	background-image: url("lab4bird.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: 100% 100%;
+	display: flex;
+	
 	text-align: center;
 	text-decoration: 
 	}
+	
+	.rectanglea{
+    	height: 120px;
+    	border: solid yellow 2px;
+    	flex-grow: 1;
+    	margin: 20px;
+    	background-color: cyan;
+    }
+	.footer{
+	width: 97%;
+	border: 2px yellow solid;
+	height: 50px;
+	margin: auto;
+	margin-top: 10px;
+	
+	text-align: center;
+	text-decoration: 
+	}
+
+	.tranrect1{
+		border: 2px solid red;
+		height: 210px;
+		width: 50%;
+		position: absolute;
+		top: 345px;
+		left: 250px;
+		background-color: rgba(255, 255, 0, 0.3);//yellow
+	}
+    
+    .tranrect2{
+		border: 2px solid red;
+		height: 210px;
+		width: 50%;
+		position: absolute;
+		top: 500px;
+		right: 140px;
+		background-color: rgba(0, 0, 255, 0.3);//blue
+	}
+	.tran-rectangle{
+		display: flex;
+	}
     
 
-    .footer p{
-    		font-style: italic;
-    }	
-	.menu{
-		display: block;
-		flex-grow: 1;
-		background-color: red;
-		border: 1px blue solid;
-		margin-left: 10px;
-		margin-right: 10px;
-		text-align: center;
-		padding: 10px;
-	}
-
-	.menu:hover{
-		background-color: yellow;
-		font-weight: bold;
-	}
-	a{
-		text-decoration: none;
-	}
-	a:hover{
-		background-color: grey;
-	}
-	a:visited{
-		color: pink;
-	}
-    a:active{
-		background-color: purple;
-	}
-
-	.aboutmenu{
-		display: none;
-		
+   	
 
 
-	}
-
-	.menu:hover .aboutmenu{
-		display: block;
-		
-		background-color: red;
-		position: absolute;
-		top: 40px;
-
-	}
-
-	.aboutmenu p{
-		margin: 0px;
-		border: blue 2px dotted;
-		padding: 10px;
-	}
-	.aboutmenu p:hover{
-		background-color: yellow;
-	}
-	.contactmenu{
-		display: none;
-	}
-
-	.menu:hover .contactmenu{
-		display: block;
-		background-color: red;
-	}
+	
 
 	</style>
 </head>
 <body>
+	This is the webpage layout template
 	<div class="header">
-		
-			<div class="menu" > <a href ="lab4template.html" target ="_blank"> Home </a></div>
-			<div class="menu">About
-				<div class="aboutmenu">
-					<p>GGC</p>
-					<p>UGA</p>
-					<p>GA-Tech</p>
-				</div>
-			</div>
-			<div class="menu">Contact
-				<div class="contactmenu">
-					<p>Phone</p>
-					<p>Email</p>
-					<p>Mail</p>
-				</div>
-			</div>
-			<div class="menu">Education</div>
+		<h1>This is the header</h1>
+			
 		
 	</div>
 	<div class="container">
 		<div class="left">
-		
-		</div>
-		<div class="center">
-			
+			This is the<br> navigation bar,<br></b> where you can<br> create a list of<br> links.<hr>
+
+			<ul>
+				<li><a href="https://www.google.com" target="-blank"> Google </a></li>
+				<li><a href="https://www.ggc.edu" target="-blank">GGC</a></li>
+				<li><a href="https://www.nba.com" target="-blank">NBA</a></li>
+				<li><a href="http://adefemikolawoleone.altervista.org/" target="-blank">ITEC 2130<?</li>
+				<li><a href="https://www.facebook.com" target="-blank">Facebook</a></li>
+				<li><a href="https://www.usa.gov" target="-blank">USA</a></li>
+
+			</ul>
 		</div>
 		<div class="right">
-			
+			<p>This is the main content division</p>
+
+			<div class="abovefooter">
+		        <div class="rectanglea">
+		        	<p>A div with cyan backgroun</p>
+		        </div>
+		        <div class="rectanglea">
+		        	<p>A div with cyan backgroun</p>
+		        </div>
+		        <div class="rectanglea">
+		        	<p>A div with cyan backgroun</p>
+		        </div>
+
+		        <div class="tran-rectangle">
+		        	<div class="tranrect1">
+		        		
+		        	</div>
+		        	<div class="tranrect2">
+		        		
+		        	</div>
+
+		        </div>
+	        </div>
+			<div class="footer">
+		        <p>This is the footer</p>
+	        </div>
 		</div>
+		
 	</div>
-	<div class="footer">
-		<p>Copyright &Copy; Elijah Kolawole 2018.</p>
-	</div>
+	
 
 </body>
 </html>
