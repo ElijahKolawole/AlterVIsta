@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab5</title>
+	<meta charset="utf-8">
+	<meta name="decription" content="Lab5 for ITEC 2130 Fall 2018">
+	<meta name="auhtor" content="Elijah Kolawole">
+	<meta name="keywords" content="HTML, CSS, JAVASCRIPT, TABLE">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+	
+    #table1{
+    	width: 70%;
+    	margin: auto;
+    	height: 400px;
+    	background-color: pink;
+    	text-align: center;
+    }
+  #logo, #head, #footer, #disclaimer{
+  	height: 50px;
+  }
+  #center{
+  	width: 55%;
+  }
+ #nav, #left, #right, #ad{
+ 	width: 10%;
+ }
+ #table2{
+ 	border: dotted 0.5px red;
+ 	//border: none;
+ 	border-spacing: 10px 5px ;
+ 	width: 70%;
+ 	margin: auto;
+ 	background-color: cyan;
+ 	//text-align: center;
+ 	height: 500px;
+ 	border-collapse: collapse;
+ }
+	
+#child_a{
+	width: 80%;
+	height:15px;
+}
+#child_b{
+	width: 20%;
+	height:15px;
+}
+
+#body_a{
+	width: 20%;
+}
+
+#body_b{
+	width: 80%;
+}
+
+#foot, #head{
+	height: 30px;
+}
+
+#table2 td{
+	border: 0.1px black dashed;
+}
+
+#table3{
+
+width: 75%;
+border: 0.5 solid red;
+marin: auto;
+vertical-align: middle;
+text-align: center;
+
+
+}
+	</style>
+
+
+
+
+
+
+</head>
+<body>
+
+	<table border="1" id="table1">
+		<caption>Table-1</caption>
+			<tr>
+				<td colspan="4" id = "logo">LOGO</td>
+				<td rowspan="4" id="ad">AD</td>
+			</tr>
+			<tr>
+				<td rowspan="3" id="nav">NAV</td>
+				<td colspan="3" id="head">HEADER</td>
+				
+				
+				
+			</tr>
+			<tr>
+				<td  id="left">LEFT</td>
+				<td id="center">CENTER</td>
+				<td id="right">RIGHT</td>
+				
+			</tr>
+			<tr>
+				<td colspan="3" id="footer">FOOTER</td>
+				
+				
+			</tr>
+			<tr>
+				<td colspan="5" id="disclaimer">DISCLAIMER</td>
+			</tr>
+			
+
+	</table>
+
+	<hr/>
+
+	<table id="table2"  border="1">
+		<caption>Table-2</caption>
+			<tr >
+				<td colspan="4" id="head"></td>
+				
+			</tr>
+			<tr >
+				<td colspan="3" id="child_a"></td>
+				<td colspan="1" id="child_b"></td>
+				
+			</tr>
+			<tr >
+				<td colspan="1" rowspan="3" id="body_a"></td>
+				<td colspan="3" rowspan="3" id="body_b"></td>
+				
+			</tr>
+
+			<tr></tr>
+			<tr></tr>
+			
+			<tr >
+				<td colspan="4" id="foot"></td> 
+				
+			</tr>
+		
+
+	</table>
+    
+
+    <hr/>
+    <table border="1" id="table3">
+    	<caption>Table-3</caption>
+
+		<thead>
+			<tr>
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th colspan="3">Birthday</th>
+						<th>Phone</th>
+						<th>Address</th>
+						<th>Age</th>
+					</tr>
+				</thead>
+			</tr>
+		</thead>
+		<tbody>
+			
+		</tbody>
+		<tfoot>
+			
+		</tfoot>
+		
+
+	</table>
+		
+</body>
+</html>

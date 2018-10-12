@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ITEC 2130 Lab5</title>
+	<meta charset="utf-8">
+	<meta name="decription" content="Lab5 for ITEC 2130 Fall 2018">
+	<meta name="auhtor" content="Elijah Kolawole">
+	<meta name="keywords" content="HTML, CSS, JAVASCRIPT, TABLE">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+
+	body{
+		background-color: pink;
+	}
+	
+    #table1{
+    	width: 80%;
+    	margin: auto;
+    	height: 800px;
+    	//background-color: pink;
+    	text-align: center;
+    	border: ridge; 1px black;
+    	
+    	margin: auto;
+    	margin-bottom: 50px;
+    }
+
+
+
+a#previous{
+	text-align: left;
+
+}
+a#next{
+	float: right;
+}
+
+#head{
+	height: 100px;
+	background-image: url("bird.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+}
+#left{
+	width: 15%;
+}
+#top_center{
+	width: 85%;
+	height: 80px;
+	text-align: left;
+}
+#mid_center{
+text-align: left;
+}
+#bottom_center{
+	height: 80px;
+}
+
+#inside_table{
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	width: 90%;
+	height: 80%;
+	text-align: left;
+	border-collapse: collapse;
+
+
+
+}
+
+
+#left{
+	background-image: url("sky.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: left;
+
+}
+td{
+	height: 30px;
+
+}
+
+#r14{
+	background-color: red;
+	border: double 6px blue;
+}
+#total{
+	background-color: yellow;
+}
+.r1{
+	background-color: grey;
+	border: solid blue 4px;
+	//border: double 4px blue;
+}
+#row1{
+	border: double 6px blue;}
+
+#inside_table td{
+	border-bottom: dotted blue 3px;
+	border-right: 0px;
+	border-left: 0px;
+
+}
+#inside_table {
+	
+	border-right: 0px;
+	border-left: 0px;
+
+}
+#inside_table tr:nth-of-type(odd){
+    background-color: cyan;
+    }
+    #inside_table tr:nth-of-type(1){
+    background-color: grey;
+    }
+    #bottom_center{
+    	text-align: left;
+
+    }
+    #total{
+    	/border-right: 1px black solid;
+    	text-align: center;
+    	border-bottom:  double 4px blue;
+
+
+
+    }
+
+	</style>
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+	<table border="1" id="table1">
+		
+			<thead>
+				<tr >
+					<td colspan="2" id="head">Learn how to use table for web design</td>
+				
+			    </tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td rowspan="3" id="left">This is the navigation bar with a background image</td>
+					<td id="top_center">This is your header</td>
+				
+				
+			   </tr>
+			   <tr>
+			   	<td id="mid_center">
+			   		This is where your main content is placed.
+			   			<table border="0" id="inside_table">
+						<tr class="r1" id="row1">
+							<th>MONTH</th>
+							<th>ELECTRICITY</th>
+							<th>WATER & SEWER</th>
+							<th>GAS</th>
+							<th >TOTAL</th>
+
+
+						</tr>
+						<tr id="2">
+							<td class="r1">January</td>
+							<td>100</td>
+							<td>50</td>
+							<td>175</td>
+							<td rowspan="14" id="total">3900</td>
+
+							
+						</tr>
+						<tr id="3">
+							<td class="r1">February</td>
+							<td>100</td>
+							<td>50</td>
+							<td>175</td>
+							
+						</tr>
+						<tr id="4">
+							<td class="r1">March</td>
+							<td>100</td>
+							<td>50</td>
+							<td>175</td>
+							
+						</tr>
+						<tr id="5">
+							<td class="r1">April</td>
+							<td>100</td>
+							<td>50</td>
+							<td>175</td>
+							
+						</tr>
+						<tr id="6">
+							<td class="r1">May</td>
+							<td>100</td>
+							<td>50</td>
+							<td>175</td>
+							
+						</tr>
+						<tr id="7">
+							<td class="r1">June</td>
+							<td>100</td>
+							<td>50</td>
+							<td>175</td>
+							
+						</tr>
+						<tr id="8">
+							<td class="r1">July</td>
+							<td>100</td>
+							<td>50</td>
+							<td>175</td>
+							
+						</tr>
+						<tr id="9">
+							<td class="r1">August</td>
+							<td>100</td>
+							<td>50</td>
+							<td>175</td>
+							
+						</tr>
+						<tr id="10">
+							<td class="r1">September</td>
+							<td>100</td>
+							<td>50</td>
+							<td>175</td>
+							
+						</tr>
+						<tr id="11">
+							<td class="r1">October</td>
+							<td>100</td>
+							<td>50</td>
+							<td>175</td>
+							
+						</tr>
+						<tr id="12">
+							<td class="r1">November</td>
+							<td>100</td>
+							<td>50</td>
+							<td>175</td>
+							
+						</tr>
+						<tr id="13">
+							<td class="r1">December</td>
+							<td>100</td>
+							<td>50</td>
+							<td>175</td>
+							
+						</tr>
+						<tr id="r14">
+							<td class="r1">Total</td>
+							<td>1200</td>
+							<td>600</td>
+							<td>2100</td>
+							
+
+							
+						</tr>
+
+					</table>
+			   	</td>
+				
+			   	  
+			   </tr>
+			   <tr>
+			   		<td id="bottom_center">This is your footer</td>
+			   </tr>
+			</tbody>
+			<tfoot>
+				<tr>
+
+
+				
+				
+			    </tr>
+			</tfoot>
+			
+			
+
+	</table>
+
+	<div id="end_note">
+
+		<a href="http://adefemikolawoleone.altervista.org/Lab3.html" id="previous">Previous Lab</a>
+		<a href="http://adefemikolawoleone.altervista.org/Lab4.html" id="next">Next Lab</a>
+		
+		
+
+	</div>
+	<hr/>
+  <div id="end_note2">
+		End of Lab 5
+	</div>
+
+
+	
+
+		
+
+	</table>
+    
+
+		
+</body>
+</html>
