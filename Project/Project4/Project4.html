@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Project 4</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Elijah Kolawole">
+	<meta name="keyword" content="HTML< CSS< JAVASCRIPT ITEC_2130">
+	<meta name="description" content="Project 4 for ITEC 2130 Class of Fall 2018 ">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+	<style type="text/css">
+		#container{
+			width: 70%;
+			height: 1100px;
+			border: 1px dotted blue;
+			margin: auto;
+			padding-right: 10px;
+			padding-left: 10px;
+			
+			overflow: auto;
+		}
+		#top{
+			display: flex;
+			height: 220px;
+			border: 1px dotted blue;
+			background-color: cyan;
+			background-image: url("pen.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+
+
+
+
+		}
+		#bottom{
+			height: 40px;
+			border: 1px dotted blue;
+			padding-bottom: 10px;
+			
+			
+		}
+		#middle{
+			height: 780px;
+			border: 1px dotted blue;
+			text-align: center;
+			font-weight: bold;
+			font-size: 20px;
+			margin: auto;
+
+
+		}
+		#mid2{
+			width: 80%;
+			border: 1px dotted blue;
+			margin: auto;
+			height: 680px;
+			position: relative;
+			top: 0%;
+			background-color: #0000FF;
+
+			
+
+		}
+
+		#mid3{
+			width: 80%;
+			border: 1px dotted blue;
+			margin: auto;
+			height: 600px;
+			position: relative;
+			top: 6%;
+			background-image: url("pen.jpg");
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+
+		}
+		.menu_head_div{
+			position: relative;
+			top: 0px;
+			display: inline-block;
+			//float: left;
+	      //margin-right: 20px;
+			flex-grow: 1;
+			margin-right: 20px;
+		     margin-left: 20px;
+			//margin-top: 0px;
+			margin-bottom: 0px;
+
+
+
+
+		}
+        hr{
+        	clear: all;
+        }
+		.menu_head_button{
+			width: 100%;
+			text-align: center;
+			background-color: #808080;
+			padding: 8px;
+			border: 0.5px black dotted;
+			cursor: pointer;
+			font-size: 16px;
+			font-family: "Times New Roman";
+		}
+
+		.menu_head_button:hover, .menu_head_button:focus {
+			background-color: #505040;
+		}
+
+		 .menu_head_button:hover+.menu_block, .menu_head_button:focus+.menu_block{
+			display: block;
+		}
+		
+		.menu_block{
+			display:none;
+			background-color: #FFC0CB;
+			//margin-top: -20px;
+			border: 0.5px dashed #0000FF;
+			overflow: auto;
+			
+			
+
+		}
+		.menu_block p{
+		 	margin: 0px;
+		 	!important;
+		 	padding: 9px;
+		 }
+
+
+		 .menu_block p:hover{
+		 	background-color: #505040;
+		 }
+
+	</style>
+
+
+	<script type="text/javascript">
+		
+
+
+	</script>
+</head>
+<body>
+
+	<div id="container">
+		<div id="top">
+			<div class="menu_head_div">
+				<button class = "menu_head_button" >E-card color</button>
+				<div class="menu_block">
+					<p>Red</p>
+					<p>Blue</p>
+					<p>Green</p>
+					<p>Yellow</p>
+					<p>Other</p>
+				</div>
+			</div>
+
+			<div class="menu_head_div">
+				<button class = "menu_head_button" >E-card picture</button>
+				<div class="menu_block">
+					<p>Penguine</p>
+					<p>Kaola</p>
+					<p>Tulips</p>
+					
+				</div>
+			</div>
+
+			<div class="menu_head_div">
+				<button class = "menu_head_button" >E-card message</button>
+				<div class="menu_block">
+					<p>Good bye</p>
+					<p>Blue</p>
+					<p>Green</p>
+					<p>Yellow</p>
+					<p>Other</p>
+				</div>
+			</div>
+
+
+			<div class="menu_head_div">
+				<button class = "menu_head_button" >About my E-card</button>
+				<div class="menu_block">
+					<p>Red</p>
+					<p>Blue</p>
+					<p>Green</p>
+					<p>Yellow</p>
+					<p>Other</p>
+				</div>
+			</div>
+
+
+		</div>	<p></p><hr>
+		<div id="middle">
+				<p>Your E-card is shown as follows:</p>
+				<div id="mid2">
+					<div id="mid3">
+					
+
+				</div>
+
+				</div>
+		</div>	<hr>
+		<div id="bottom">
+			<form>
+				<p>Email:
+				<input type="text" name="email" value="youremail@ggc.edu">
+				<button type="submit" value="send_card" >Email your E-card</button></p>
+			</form>
+
+		</div>	
+	</div>
+
+</body>
+</html>
